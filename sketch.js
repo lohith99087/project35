@@ -42,7 +42,7 @@ function setup() {
 
 // function to display UI
 function draw() {
-  background(bgImg);
+  background(bg);
   
   if(keyDown(LEFT_ARROW)){
     updateHeight(-10,0);
